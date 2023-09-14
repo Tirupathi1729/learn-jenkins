@@ -1,6 +1,6 @@
 pipeline {
     //agent any
-    agent { node { label 'labelName' } }
+    agent { node { label 'workstation' } }
 
     stages {
         stage('compile') {
