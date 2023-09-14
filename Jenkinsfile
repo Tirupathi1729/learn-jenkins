@@ -6,6 +6,7 @@ pipeline {
         stage('compile') {
             steps {
                 echo 'Hello World'
+                error 'This is an error'
             }
         }
 
