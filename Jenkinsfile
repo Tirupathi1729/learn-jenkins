@@ -17,7 +17,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('code security') {
+        stage('security') {
             steps {
                 echo 'Hello World'
             }
