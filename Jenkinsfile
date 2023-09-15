@@ -6,7 +6,7 @@ pipeline {
         SSH = credentials("centos-ssh")
     }
     options{
-        ansicolor('xterm')
+        ansiColor('xterm')
         }
 
     stages {
