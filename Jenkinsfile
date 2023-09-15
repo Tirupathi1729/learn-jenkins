@@ -101,8 +101,8 @@
 //     }
 // }
 node('workstation'){
-def x:Integer = 10
-    stage('Test'){
-        print x
-    }
+    def x :Integer = 10
+        stage('Test'){
+            print x
+        }
 }
