@@ -3,7 +3,7 @@ pipeline {
     agent { node { label 'workstation' } }
     environment{
         Test_URl = "google.com"
-        SSH = credentials("centos.ssh")
+        SSH = credentials("centos-ssh")
     }
 
     stages {
