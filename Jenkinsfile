@@ -1,5 +1,6 @@
 environment{
     Test_URl = "google.com"
+    }
 pipeline {
     //agent any
     agent { node { label 'workstation' } }
