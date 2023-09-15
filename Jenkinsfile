@@ -1,8 +1,10 @@
+environment{
+    Test_URl = "google.com"
 pipeline {
     //agent any
     agent { node { label 'workstation' } }
-    environment{
-    Test_URl = "google.com"
+//     environment{
+//     Test_URl = "google.com"
     }
 
     stages {
