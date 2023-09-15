@@ -101,8 +101,10 @@
 //     }
 // }
 node('workstation'){
-    def x :Integer = 10
+    //def x :Integer = 10
+    env.y = 20
     stage('Test'){
-            print x
+            //print x
+            sh 'y'
     }
 }
