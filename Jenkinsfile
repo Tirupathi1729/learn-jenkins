@@ -13,6 +13,7 @@ pipeline {
                 //error 'This is an error'
                 echo Test_URl
                 echo SSH
+                sh 'env'
             }
         }
 
