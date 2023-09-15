@@ -14,6 +14,7 @@ pipeline {
                 echo Test_URl
                 echo SSH
                 sh 'env'
+                sh 'ansible -i 172.31.33.112, all -e ansible_user=${SSH_USR} -e ansible_password=${SSH_PSW} -m ping'
             }
         }
 
