@@ -106,6 +106,7 @@ def samplef(){
     print "XYZ function"
 }
 node('workstation'){
+
     //def x :Integer = 10
 
     stage('Test'){
