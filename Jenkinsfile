@@ -102,7 +102,7 @@
 // }
 node('workstation'){
     def x :Integer = 10
-        stage('Test'){
+    stage('Test'){
             print x
-        }
+    }
 }
