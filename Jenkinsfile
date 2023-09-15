@@ -110,6 +110,6 @@ node('workstation'){
     stage('Test'){
             //print x
             sh 'echo y-${y}'
-            samplef()
+            samplef
     }
 }
