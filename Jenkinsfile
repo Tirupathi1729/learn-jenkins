@@ -16,7 +16,7 @@ pipeline {
     environment{
         Test_URl = "google.com"
         SSH = credentials("centos-ssh")
-    }
+    }//hii
     options{
         ansiColor('xterm')
         }
