@@ -100,6 +100,7 @@
 //         }
 //     }
 // }
+def x :Integer = 10
 env.y = 20
 def samplef(){
     print "XYZ function"
@@ -108,7 +109,7 @@ node('workstation'){
     //def x :Integer = 10
 
     stage('Test'){
-            //print x
+            print "x"
             sh 'echo y - ${y}'
             samplef()
     }
