@@ -109,7 +109,7 @@ node('workstation'){
     //def x :Integer = 10
 
     stage('Test'){
-            print "x"
+            print x
             sh 'echo y - ${y}'
             samplef()
     }
