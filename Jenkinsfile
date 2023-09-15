@@ -5,7 +5,7 @@ pipeline {
     agent { node { label 'workstation' } }
 //     environment{
 //     Test_URl = "google.com"
-    }
+//     }
 
     stages {
         stage('compile') {
