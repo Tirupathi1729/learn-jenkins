@@ -5,6 +5,9 @@ pipeline {
         Test_URl = "google.com"
         SSH = credentials("centos-ssh")
     }
+    options{
+        ansicolor('xterm')
+        }
 
     stages {
         stage('compile') {
